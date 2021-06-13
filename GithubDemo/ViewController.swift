@@ -9,9 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: View did life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .green
+        
         self.title = "ViewController"
     }
 }
